@@ -1,94 +1,88 @@
 {% extends 'base.html' %}
 {% block conteudo %}
-    <div class="container">
-        <div class="row p-4"><!--Postagens-->
+  <div class="container">
+    <div class="row p-4">
+      <!-- Postagens -->
 
-            <div class="col-8 bg-light p-4">
+      <div class="col-8 bg-light p-4">
+        <div>
+          <div>
+            <h2 class="text-warning text-center">Título da postagem</h2>
+            <p class="text-end text-date-postagem">Postado em 23/10/2023</p>
+          </div>
+          <hr />
+          <div class="text-center">
+            <img class="img-fluid" src="../static/images/imagem1.jpg" />
+          </div>
 
-                <div>
-                    <div>
-                        <h2 class="text-warning text-center">Título da postagem</h2>
-                        <p class="text-end text-date-postagem">Postado em 23/10/2023</p>
-                    </div>
-                    <hr>
-                    <div>
-                        <img class="image-postagem" src="../static/images/imagem1.jpg">
-                    </div>
-
-                    <div>
-                        <p class="text-postagem">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eros donec ac odio tempor orci dapibus. Mattis nunc sed blandit libero volutpat sed cras ornare arcu. Eget felis eget nunc lobortis mattis aliquam. Phasellus faucibus scelerisque eleifend donec pretium vulputate. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi.
-                        </p>
-                        <a class="nav-link" aria-current="page" href="index.html">leia mais...</a>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="mt-5">
-                        <h2 class="text-warning text-center">Título da postagem</h2>
-                        <p class="text-end text-date-postagem">Postado em 23/10/2023</p>
-                    </div>
-                    <hr>
-                    <div>
-                        <img class="image-postagem" src="../static/images/imagem2.jpg">
-                    </div>
-
-                    <div>
-                        <p class="text-postagem">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eros donec ac odio tempor orci dapibus. Mattis nunc sed blandit libero volutpat sed cras ornare arcu. Eget felis eget nunc lobortis mattis aliquam. Phasellus faucibus scelerisque eleifend donec pretium vulputate. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi.
-                        </p>
-                        <a class="nav-link" aria-current="page" href="index.html">leia mais...</a>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="col-1"></div>
-
-            <div class="col-3">
-                <div class="row">
-                    <div class="col bg-light p-4">
-                        <div>
-                            <h5 class="titulo-postagem-lateral">Postagens recentes</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,...
-                            </p>
-                            <a class="nav-link" aria-current="page" href="index.html">leia mais...</a>
-                            <hr>
-                        </div>
-
-                        <div>
-                            <h5 class="titulo-postagem-lateral">Postagens recentes</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,...
-                            </p>
-                            <a class="nav-link" aria-current="page" href="index.html">leia mais...</a>
-                            <hr>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="row mt-4">
-                    <div class="col bg-light p-4">
-                        <div>
-                            <h5 class="titulo-postagem-lateral">Categorias</h5>
-
-                            <nav class="nav flex-column">
-                                <a class="nav-link text-warning text-nav-lateral" aria-current="page" href="index.html">Jogos</a>
-
-                                <a class="nav-link text-warning text-nav-lateral" aria-current="page" href="index.html">Celulares</a>
-
-                                <a class="nav-link text-warning text-nav-lateral" aria-current="page" href="index.html">Informática</a>
-
-                                <a class="nav-link text-warning text-nav-lateral" aria-current="page" href="index.html">Eletrônicos</a>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+          <div>
+            <p class="text-postagem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eros donec ac odio tempor orci dapibus. Mattis nunc sed blandit libero volutpat sed cras ornare arcu. Eget felis eget nunc lobortis mattis aliquam. Phasellus faucibus scelerisque eleifend donec pretium vulputate. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi.</p>
+            <a class="nav-link" aria-current="page" href="/">leia mais...</a>
+          </div>
         </div>
+
+        <div>
+          <div class="mt-5">
+            <h2 class="text-warning text-center">Título da postagem</h2>
+            <p class="text-end text-date-postagem">Postado em 23/10/2023</p>
+          </div>
+          <hr />
+          <div class="text-center">
+            <img class="img-fluid" src="../static/images/imagem2.jpg" />
+          </div>
+
+          <div>
+            <p class="text-postagem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eros donec ac odio tempor orci dapibus. Mattis nunc sed blandit libero volutpat sed cras ornare arcu. Eget felis eget nunc lobortis mattis aliquam. Phasellus faucibus scelerisque eleifend donec pretium vulputate. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi.</p>
+            <a class="nav-link" aria-current="page" href="/">leia mais...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1"></div>
+
+      <div class="col-3">
+        <div class="row">
+          <div class="col bg-light p-4">
+            <div>
+              <h5 class="titulo-postagem-lateral">Postagens recentes</h5>
+              <div class="text-center">
+                <img class="img-fluid p-2" src="../static/images/imagem3.jpg" />
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,...</p>
+              <a class="nav-link" aria-current="page" href="/">leia mais...</a>
+              <hr />
+            </div>
+
+            <div>
+              <h5 class="titulo-postagem-lateral">Postagens recentes</h5>
+              <div class="text-center">
+                <img class="img-fluid p-2" src="../static/images/imagem4.jpg" />
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,...</p>
+              <a class="nav-link" aria-current="page" href="/">leia mais...</a>
+              <hr />
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col bg-light p-4">
+            <div>
+              <h5 class="titulo-postagem-lateral">Categorias</h5>
+
+              <nav class="nav flex-column">
+                <a class="nav-link text-warning text-nav-lateral" aria-current="page" href="/">Jogos</a>
+
+                <a class="nav-link text-warning text-nav-lateral" aria-current="page" href="/">Celulares</a>
+
+                <a class="nav-link text-warning text-nav-lateral" aria-current="page" href="/">Informática</a>
+
+                <a class="nav-link text-warning text-nav-lateral" aria-current="page" href="/">Eletrônicos</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-{% endblock conteudo %}
+  </div>
+{% endblock %}
