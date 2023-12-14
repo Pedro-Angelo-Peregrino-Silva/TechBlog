@@ -1,0 +1,26 @@
+/*Formatação Layout Padrão */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+/*Layout*/
+
+#area-cabecalho {
+	background-color: #f7b600;
+	padding: 30px;
+}
+
+#area-logo {
+    font-size: 3em;
+}
+
+#area-logo span {
+    color: white;
+}
