@@ -85,24 +85,25 @@
     </header>
 
     <main>
-        <section id="container-section-principal">
-            <div id="postagens-section-principal" class="row">
-                <div class="postagem-principal col-6">
-                    <article>
-                        <header>
-                            título postagem 01
-                        </header>
-                    </article>
+        <section id="login-section" class="container">
+            <form id="login-form" action="../pages/login.html" method="post" class="needs-validation form-control" novalidate>
+                <h3 id="login-title" class="text-center mb-3">Login</h3>
+                <div class="mb-3">
+                    <label for="username" class="form-label">Nome de Usuário:</label>
+                    <input type="text" class="form-control" id="username" name="username" required>
+                    <div class="invalid-feedback">
+                        Por favor, insira um nome de usuário.
+                    </div>
                 </div>
-                <div class="col-1"></div>
-                <div class="postagem-aside col-3">
-                    <aside>
-                        <header>
-                            título postagem aside
-                        </header>
-                    </aside>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Senha:</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                    <div class="invalid-feedback">
+                        Por favor, insira uma senha.
+                    </div>
                 </div>
-            </div>
+                <button type="submit" class="btn btn-primary">Entrar</button>
+            </form>
         </section>
 
         <footer>

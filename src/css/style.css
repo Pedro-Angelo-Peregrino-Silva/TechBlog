@@ -5,7 +5,7 @@
 }
 
 body {
-	font-size: 1em;
+	font-size: 1.1em;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background: #e6e6e6;
 }
@@ -18,9 +18,43 @@ body {
 }
 
 #area-logo {
-    font-size: 3em;
+	font-size: 3em;
 }
 
 #area-logo span {
-    color: white;
+	color: white;
+}
+
+#container-section-principal {
+	position: relative;
+	width: auto;
+	height: 100vh;
+}
+
+#area-footer {
+	background-color: #f7b600;
+	padding: 30px;
+}
+
+/*Login*/
+#login-section {
+	width: 30%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#login-title {
+	background-color: #f7b600;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+/*Postagens*/
+.postagem-principal {
+	background: white;
+	margin-left: 5%;
+}
+
+.postagem-aside {
+	background: white;
 }
